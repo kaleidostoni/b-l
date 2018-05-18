@@ -1,0 +1,64 @@
+.body {
+  margin: 0;
+  padding: 0;
+}
+.card {
+  font-family: Lato;
+  width: 23vw;
+}
+.card .card__container {
+  border: #a8a8a8 1px solid;
+  padding: 20px;
+  box-shadow: 1px 1px 1px #cecccc;
+}
+.card .card__container .card__header {
+  text-align: left;
+  font-size: .75em;
+  color: #a8a8a8;
+  padding: 15px 0 15px 0;
+}
+.card .card__container .card__header .strong {
+  color: #F6603D;
+  font-weight: bold;
+}
+.card .card__container .card__text {
+  text-align: left;
+  font-size: .7em;
+  color: #a8a8a8;
+  padding-bottom: 15px;
+}
+.card__form {
+  width: 450px;
+  margin: 17% auto;
+}
+.input {
+  display: inline;
+}
+.btn {
+  padding: 10px;
+  border-radius: 3px;
+  border: none;
+}
+.btn--primary {
+  background-color: #00BD33;
+  color: white;
+}
+.btn--secondary {
+  background-color: #FAFAFA;
+  margin-top: 10px;
+  box-shadow: 1px 1px 1px #cecccc;
+  padding: 10px 20px;
+  color: #616060;
+  font-size: .64em;
+  font-weight: bold;
+}
+.btn--margin {
+  margin-right: 10px;
+}
+.link {
+  font-size: .65em;
+  color: #09dffc;
+}
+.link:hover {
+  color: #701170;
+}

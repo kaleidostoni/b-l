@@ -1,0 +1,86 @@
+@center: center;
+@left: left;
+@typography: Lato;
+@border:rgb(168, 168, 168) 1px solid;
+@text-color:rgb(168, 168, 168);
+@strong:#F6603D;
+@padding-5:5px;
+@padding-10:10px;
+@padding-15:15px;
+@padding-20:20px;
+@primary: #00BD33;
+@secondary: #FAFAFA;
+@shadow: 1px 1px 1px #cecccc;
+
+.body{
+    margin:0;
+    padding:0;
+}
+
+.card{
+    font-family: @typography;
+    width: 23vw;
+    .card__container{
+         border: @border;
+         padding:20px;
+         box-shadow: @shadow;
+        .card__header{
+             text-align: @left;
+             font-size: .75em; 
+             color: @text-color;
+             padding: @padding-15 0 @padding-15 0;
+             .strong{
+                 color:@strong;
+                 font-weight: bold;
+             }  
+        }
+        .card__text{
+            text-align: @left;
+            font-size:  .7em;
+            color:@text-color;
+            padding-bottom: @padding-15;
+        }
+    }
+}
+
+.card__form{
+    width: 450px;
+    margin: 17% auto;
+}
+
+.input{
+    display:inline;
+}
+
+.btn{
+    padding:@padding-10;
+    border-radius: 3px;
+    border:none;
+}
+
+.btn--primary{
+    background-color: @primary;
+    color:white;
+}
+
+.btn--secondary{
+    background-color: @secondary;
+    margin-top: @padding-10;
+    box-shadow: @shadow;
+    padding: @padding-10 @padding-20;
+    color: rgb(97, 96, 96);
+    font-size: .64em;
+    font-weight: bold;
+}
+
+.btn--margin{
+    margin-right: 10px;
+}
+
+.link{
+    font-size: .65em;
+    color:rgb(9, 223, 252);
+    &:hover{
+        color:rgb(112, 17, 112)
+    }
+}
